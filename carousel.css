@@ -30,6 +30,11 @@ body {
     background-color: rgb(179, 179, 179);
 }
 
+.fixo {
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
 .tittle {
     font-weight: 100;
 }
