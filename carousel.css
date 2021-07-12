@@ -33,6 +33,8 @@ body {
 .fixo {
     background-attachment: fixed;
     overflow: hidden;
+    width: auto;
+    height: 100%;
 }
 
 .tittle {
