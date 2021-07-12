@@ -139,6 +139,8 @@ body {
 
 .carousel {
     margin-bottom: 4rem;
+    background-attachment: fixed;
+    overflow: hidden;
 }
 
 .bg-2 {
@@ -282,6 +284,7 @@ a {
 }
 
 .footer-20192 {
+    background-attachment: fixed;
     position: relative;
     color: #fff;
     padding: 7rem 0;
@@ -289,7 +292,7 @@ a {
 }
 
 .footer-20192 .container {
-    position: relative
+    position: relative;
 }
 
 .footer-20192 h3 {
