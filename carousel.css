@@ -245,6 +245,18 @@ body {
     text-shadow: 0.1em 0.1em 0.1em rgba(102, 0, 0, 0.430), 0.1em 0.1em 0.1em rgba(0, 102, 0, 0.430), 0.1em 0.1em 0.1em rgba(0, 0, 102, 0.430)
 }
 
+.btn-azul {
+    background-color: rgb(82, 82, 82);
+    color: rgb(235, 234, 241);
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.btn-azul:hover {
+    color: rgb(41, 175, 175);
+    background-color: #150c3f;
+}
+
 .link:hover {
     opacity: .8;
     transition: .4s;
