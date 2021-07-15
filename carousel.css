@@ -51,7 +51,7 @@ body {
 }
 
 .bg-dropdown {
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(21, 13, 54, 0.9);
 }
 
 .bg-dropdown a {
@@ -59,12 +59,12 @@ body {
 }
 
 .drop-link:hover {
-    color: black;
-    background: #8e9eab;
+    color: rgb(95, 191, 247);
+    background: #0575E6;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);
+    background: -webkit-linear-gradient(to right, #021B79, #0575E6);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #eef2f3, #8e9eab);
+    background: linear-gradient(to right, #021B79, #0575E6);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
