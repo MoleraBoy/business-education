@@ -213,9 +213,23 @@ body {
     letter-spacing: -.05rem;
 }
 
+.login {
+    margin-left: 15%;
+    border-radius: 20px;
+    background-color: rgba(38, 38, 107, 0.411);
+    margin-top: 0px;
+    position: absolute;
+}
+
 
 /* RESPONSIVE CSS
   -------------------------------------------------- */
+
+@media (min-width: 20em) {
+    .login {
+        position: static;
+    }
+}
 
 @media (min-width: 40em) {
     /* Bump up size of carousel content */
@@ -226,6 +240,9 @@ body {
     }
     .featurette-heading {
         font-size: 50px;
+    }
+    .login {
+        margin-left: 24%;
     }
 }
 
@@ -238,6 +255,25 @@ body {
         width: 500px;
         height: 280px;
         margin-top: 12rem;
+    }
+    .login {
+        position: absolute;
+        margin-left: 33%;
+        left: 450px;
+        z-index: 1;
+    }
+}
+
+@media (min-width: 92em) {
+    .login {
+        left: 550px;
+    }
+}
+
+@media (min-width: 112em) {
+    .login {
+        position: fixed;
+        left: 850px;
     }
 }
 
