@@ -228,6 +228,7 @@ body {
 @media (min-width: 20em) {
     .login {
         position: static;
+        background-color: blueviolet;
     }
 }
 
