@@ -217,6 +217,11 @@
     .atencao:hover {
         color: red;
     }
+    
+    .msg {
+        color: whitesmoke;
+        background-color: rgba(27, 18, 53, 0.233);
+    }
     /* RESPONSIVE CSS
   -------------------------------------------------- */
     
