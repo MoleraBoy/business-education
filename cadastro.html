@@ -95,20 +95,29 @@
                 <section class="jumbotron text-center bg-3">
                     <div class="container table-responsive">
                         <form>
-                            <div class="form-group">
-                                <label for="exampleInputEmail1" class="sombra text-light" style="font-size: 2rem;">Endereço de email</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu email aqui">
+                            <div class="form-group col-md-6 float-right mt-3">
+                                <label for="exampleInputEmail1" class="sombra text-light" style="font-size: 2rem;">Nome completo</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="nome">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="exampleInputPassword1" class=" text-light sombra mt-3" style="font-size: 2rem;">Email</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="nome">
                                 <small id="emailHelp" class="form-text sombra mt-2">Seu email não será divulgado a nenhum serivço sem sua permissão.</small>
                             </div>
-                            <div class="form-group">
-                                <label for="exampleInputPassword1" class=" text-light sombra mt-3" style="font-size: 2rem;">Palavra passe</label>
-                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
-                                <div class="form-check mt-4">
-                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                    <label class="form-check-label sombra" for="exampleCheck1">Não sou um robô</label>
+                            <div class="row justify-content-center align-items-center">
+                                <div class="form-group col-md-6">
+                                    <label for="inputPassword6" style="font-size: 1.5rem;" class="sombra">Password</label>
+                                    <input type="password" id="inputPassword6" class="form-control mx-sm-3" aria-describedby="passwordHelpInline">
+                                    <small id="passwordHelpInline" class="text-muted sombra">
+                                    Deve conter 9-20 caracteres
+                                  </small>
                                 </div>
                             </div>
-                            <button type="submit" class="btn btn-primary mt-3">Entrar</button>
+                            <div class="form-check mt-2">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label sombra" for="exampleCheck1">Não sou um robô</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary mt-3">Cadastrar</button>
                         </form>
                     </div>
                 </section>
