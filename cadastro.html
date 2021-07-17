@@ -87,58 +87,85 @@
 
     <main role="main " class="container ">
 
-        <div class="container ">
+        <div><br><br><br><br><br><br><br></div>
+        <div class="container bg-3">
 
-            <!-- container principal -->
-            <div class="container marketing ">
-                <div><br><br><br><br><br><br><br><br></div>
-                <section class="jumbotron text-center bg-3">
-                    <div class="container table-responsive">
-                        <form>
-                            <div class="form-group col-md-6 float-right mt-3">
-                                <label for="exampleInputEmail1" class="sombra text-light" style="font-size: 2rem;">Nome completo</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="nome">
-                            </div>
-                            <div class="form-group col-md-6">
-                                <label for="exampleInputPassword1" class=" text-light sombra mt-3" style="font-size: 2rem;">Email</label>
-                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="nome">
-                                <small id="emailHelp" class="form-text sombra mt-2">Seu email não será divulgado a nenhum serivço sem sua permissão.</small>
-                            </div>
-                            <div class="row justify-content-center align-items-center">
-                                <div class="form-group col-md-6">
-                                    <label for="inputPassword6" style="font-size: 1.5rem;" class="sombra">Password</label>
-                                    <input type="password" id="inputPassword6" class="form-control mx-sm-3" aria-describedby="passwordHelpInline">
-                                    <small id="passwordHelpInline" class="text-muted sombra">
-                                    Deve conter 9-20 caracteres
-                                  </small>
-                                </div>
-                            </div>
-                            <div class="form-check mt-2">
-                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                <label class="form-check-label sombra" for="exampleCheck1">Não sou um robô</label>
-                            </div>
-                            <button type="submit" class="btn btn-primary mt-3">Cadastrar</button>
-                        </form>
+            <form>
+                <div class="form-row p-5">
+                    <div class="form-group col-md-6">
+                        <label for="inputEmail4" style="font-size: 1.5rem;">Email</label>
+                        <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
                     </div>
-                </section>
-                <div><br><br><br><br><br><br></div>
-                <!-- container site -->
-                <div class="row mt-4 text-center mt-5">
-
-                    <!-- Preços -->
-                    <div class="col-lg-6">
-                        <div class="row ">
-
-                        </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputPassword4" style="font-size: 1.5rem;">Senha</label>
+                        <input type="password" class="form-control" id="inputPassword4" placeholder="Senha">
+                        <small id="passwordHelpBlock" class="form-text text-muted sombra">
+                           Sua senha deve conter de 8-20 caracteres
+                          </small>
                     </div>
-                    <!-- Preços fim -->
-
                 </div>
-                <!-- /.container site fim-->
-
-            </div>
-            <!-- container principal fim -->
-
+                <div class="form-group">
+                    <label for="inputAddress" class="sombra" style="font-size: 1.5rem;">Endereço</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="Rua das couves, 1514">
+                </div>
+                <div class="form-group">
+                    <label for="inputAddress2" class="sombra" style="font-size: 1.5rem;">Complemento</label>
+                    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputCity" class="sombra" style="font-size: 1.5rem;">Cidade</label>
+                        <input type="text" class="form-control" id="inputCity">
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="inputState" style="font-size: 1.5rem;">Estado</label>
+                        <select id="inputState" style="font-size: 1.5rem;" class="form-control">
+                      <option selected>Estado</option>
+                      <option>AC</option>
+<option>AL</option>
+<option>AP</option>
+<option>AM</option>
+<option>BA</option>
+<option>CE</option>
+<option>ES</option>
+<option>GO</option>
+<option>MA</option>
+<option>MT</option>
+<option>MS</option>
+<option>MG</option>
+<option>PA</option>
+<option>PB</option>
+<option>PR</option>
+<option>PE</option>
+<option>PE</option>
+<option>RJ</option>
+<option>RN</option>
+<option>RS</option>
+<option>RO</option>
+<option>RR</option>
+<option>SC</option>
+<option>SP</option>
+<option>SE</option>
+<option>TO</option>
+<option>DF</option>
+                    </select>
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label for="inputZip" style="font-size: 1.5rem;">CEP</label>
+                        <input type="text" class="form-control" id="inputZip">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                      Não sou robô
+                    </label>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Entrar</button>
+                <div style="margin-bottom: 8rem;">&nbsp</div>
+            </form>
         </div>
 
     </main>
