@@ -150,6 +150,13 @@
         background-attachment: fixed;
         font-family: helvetica, Arial, sans-serif;
     }
+    
+    .bg-w {
+        background: url(/img/working.png);
+        background-color: rgb(108, 117, 125);
+        background-attachment: fixed;
+        font-family: helvetica, Arial, sans-serif;
+    }
     /* Since positioning the image, we need to help out the caption */
     
     .carousel-caption {
@@ -169,6 +176,12 @@
         left: 0;
         min-width: 100%;
         height: 32rem;
+    }
+    
+    .wallpaper img {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     /* MARKETING CONTENT
   -------------------------------------------------- */
